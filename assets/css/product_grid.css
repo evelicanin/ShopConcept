@@ -1,0 +1,139 @@
+
+
+/* Anchor and image */
+.grid-wrap {
+	clear: both;
+	margin: 0 auto;
+	padding: 0;
+	max-width: 1260px;
+	margin-top:-50px;
+	padding-bottom:100px; /* edis */
+}
+
+.grid {
+	margin: 10px auto;
+	padding: 0;
+	list-style: none;
+	min-height: 500px;	
+	text-align: center;
+}
+
+.grid li {
+	display: inline-block;
+	overflow: hidden;
+	width: 234px;
+	text-align: left;
+	vertical-align: top;
+	display: inline-block;
+}
+
+.grid li > a,
+.grid li img {
+	display: block;
+	outline: none;
+	border: none;
+}
+.grid li > a {
+	position: relative;
+	overflow: hidden;
+			margin: 10px;
+}
+	.grid li > a:hover {
+	border: 1px solid #2E3444;
+	border: 1px solid rgba(255, 255, 255, .6);
+	box-shadow: 5px 5px 5px rgba(255, 255, 255, .2);
+	-webkit-box-shadow: 0 9px 9px -6px rgba(255, 255, 255, .3);
+	   -moz-box-shadow: 0 9px 9px -6px rgba(255, 255, 255, .3);
+	        box-shadow: 0 9px 9px -6px rgba(255, 255, 255, .3);
+	}	
+	.grid li > a:active {
+	border: 3px solid #2E3444;
+	}
+	
+/* Title */
+.grid li h3 {
+    opacity:0.8;/* edis */
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	margin: 0;
+	padding: 10px;
+	width: 100%;
+	background: #2E3444;
+	background-color:rgba(0, 0, 0, 0.5);
+	color: #D3EEE2;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 0.7em;
+	letter-spacing:1px;
+}
+.green {
+  background:#66dd99;  
+}
+.blue {
+  background:#6666ff;  
+}
+.red {
+  background:#ff4466; 
+}
+
+
+.categorie_grid {
+    display : none;
+	margin: -20px auto 30px auto;
+	padding: 0;
+	list-style: none;
+	min-height: 100px;	
+	text-align: center;
+}
+
+.categorie_grid  li{
+    background: #fff;
+	display: inline-block;
+	overflow: hidden;
+	width: 234px;
+	vertical-align: top;	
+	text-align: left;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 0.9em;
+	letter-spacing:1px;
+	/* box-shadow: 1px 1px 5px #888888; */
+	    margin:2px;
+}
+.categorie_grid li a {
+	display: block;
+	outline: none;
+	color: #0084ff;
+}
+.categorie_grid li > a {
+	position: relative;
+	overflow: hidden;
+	margin: 7px;
+}
+	.categorie_grid li > a:hover {
+	border: none;
+	}	
+	.categorie_grid li > a:active {
+	border: none;
+	color: #7400cc;
+	}
+	
+.categorie_grid li h3 {
+    opacity:1;/* edis */
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	margin: 0;
+	padding: 10px;
+	width: 100%;
+	background: #2E3444;
+	background-color:rgba(0, 0, 0, 0.5);
+	color: #D3EEE2;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 0.7em;
+	letter-spacing:1px;
+}
